@@ -1,0 +1,26 @@
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    height: 100%;
+    background-image: url("./me1.jpg");
+    /* Center and scale the image nicely */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.up {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgb(255, 255, 255, 0.7);
+}
