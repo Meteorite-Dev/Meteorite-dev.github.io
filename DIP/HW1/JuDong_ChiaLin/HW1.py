@@ -19,7 +19,7 @@ def main():
     # create the window and show it
     window = sg.Window('Homework1',layout)
     # ---===--- Event LOOP Read and display frames, operate the GUI --- #
-    cap = cv2.VideoCapture('walk2.avi')
+    cap = cv2.VideoCapture(0)
     recording = False
     # define the photo base width in order to maintain Aspect ratio
     basewidth = 300
